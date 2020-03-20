@@ -1,11 +1,28 @@
 {
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/driveate/ws-api-client-php.git"
+    "name": "taroxx/yii2-wsapi",
+    "description": "yii2 plugin for wheel-size.com API",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taroxx",
+            "email": "taroxx@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/driveate/ws-api-client-php.git"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "driveate/ws-api-client-php": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "taroxx\\wsapi\\": ""
+        }
     }
-  ],
-  "require": {
-    "driveate/ws-api-client-php": "*@dev"
-  }
 }
