@@ -1,0 +1,11 @@
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/driveate/ws-api-client-php.git"
+    }
+  ],
+  "require": {
+    "driveate/ws-api-client-php": "*@dev"
+  }
+}
