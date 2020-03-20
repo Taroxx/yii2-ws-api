@@ -7,19 +7,30 @@ Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-Either run
+
+To install the bindings via [Composer](http://getcomposer.org/), add the following to `composer.json`:
 
 ```
-php composer.phar require --prefer-dist taroxx/yii2-wsapi "*"
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Taroxx/yii2-wsapi.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/driveate/ws-api-client-php.git"
+    }
+  ],
+  "minimum-stability":"dev",
+  "require": {
+    "taroxx/yii2-wsapi": "*@dev"
+  }
+}
+
 ```
 
-or add
-
-```
-"taroxx/yii2-wsapi": "*"
-```
-
-to the require section of your `composer.json` file.
+Then run `composer install` or `composer update`
 
 
 Usage
