@@ -18,7 +18,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "driveate/ws-api-client-php": "*@dev"
+        "driveate/ws-api-client-php": "*"
     },
     "autoload": {
         "psr-4": {
