@@ -19,11 +19,15 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.14",
-        "driveate/ws-api-client-php": "*@dev"
+        "driveate/ws-api-client-php": "*@dev",
+        "kartik-v/yii2-widget-depdrop": "dev-master"
+    },
+    "extra": {
+        "bootstrap": "taroxx\\wsapi\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
-            "taroxx\\wsapi\\": ""
+            "taroxx\\wsapi\\": "src"
         }
     }
 }
