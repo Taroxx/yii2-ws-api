@@ -1,6 +1,6 @@
-yii2 plugin for wheelsize API
+yii2 plugin for vehicle tire&wheelsizes API
 ==================================
-yii2 plugin for wheelsize API
+yii2 plugin for vehicle tire&wheelsizes API
 
 WARNING
 -------
