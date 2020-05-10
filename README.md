@@ -1,6 +1,11 @@
-yii2 plugin for wheel-size.com API
+yii2 plugin for wheelsize API
 ==================================
-yii2 plugin for wheel-size.com API
+yii2 plugin for wheelsize API
+
+WARNING
+-------
+
+Plugin is under construction!!!
 
 Installation
 ------------
@@ -38,5 +43,3 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
-```php
-<?= \taroxx\wsapi\AutoloadExample::widget(); ?>```
